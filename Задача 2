@@ -1,0 +1,3 @@
+import numpy as np
+x=np.diag(np.flip(range(10)))
+print(sum(sum(x)))
